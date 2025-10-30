@@ -7,6 +7,7 @@ description: 漂流小蝦 官方下载中心
 
 <h1>🎮 漂流小蝦</h1>
 <p>漂流幻境輔助程式（原漂流無雙增強版！自動行走、自動戰鬥、自動吃補、地圖大瞬移……）</p>
+<p>目前免費試用，意見徵集中！</p>
 
 ---
 
@@ -50,10 +51,32 @@ description: 漂流小蝦 官方下载中心
 
 <br><br>
 
+<div align="center">
+
+<!--<img src="./test01.jpg" alt="WLBOY preview" width="800" />-->
+<br>
 <a class="download-button" href="https://github.com/wiman4/wlboy/releases/download/wlboy/2.0.0.7z" download>⬇️ 点击下载 漂流小蝦 v2.0.0</a>
+</div>
 
 <br><br>
+<div align="left">
+<h2>🧾 更新紀錄</h2>
 
+<div class="update-box">
+
+**更新日期：** 2025 年 10 月 31 日　01:50:16  
+
+### 🆕 本次更新內容
+1. ✨ 新增 **「瞬移指定出口」** 功能，可直接選擇並傳送至特定地點。  
+2. 🗂️ 新增 **自動記錄與更新瞬移出口清單檔** `ScnList.txt`，讓瞬移目標可即時同步。  
+
+---
+
+💡 **提示：**  
+此版本著重於提升瞬移系統的便利性與可管理性，建議舊版本使用者盡快更新。
+
+</div>
+</div>
 ---
 
 <h3>🔗 備用下載方式</h3>
