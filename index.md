@@ -98,7 +98,7 @@ https://github.com/wiman4/wlboy/releases/download/wlboy/2.0.0.7z
 <h3>📂 項目信息</h3>
 
 <p>
-🌐 官方主頁：<a href="https://wiman4.github.io/wlboy/">https://wiman4.github.io/wlboy/</a><br>
+🌐 官方主頁：<a href="https://wl.wiman4.com/">https://wl.wiman4.com/</a><br>
 💻 GitHub 倉庫：<a href="https://github.com/wiman4/wlboy">https://github.com/wiman4/wlboy</a><br>
 </p>
 
