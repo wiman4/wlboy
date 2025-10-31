@@ -53,10 +53,13 @@ description: 漂流小蝦 官方下载中心
 
 <div align="center">
 
-<img src="./wlboy01.jpg" alt="WLBOY preview" width="800" />
+<video width="1024" controls>
+  <source src="./wlboydemo01.mp4" type="video/mp4">
+</video>
+<!-- <img src="./wlboy01.jpg" alt="WLBOY preview" width="800" />
 <br>
 <a class="download-button" href="https://github.com/wiman4/wlboy/releases/download/wlboy/2.0.0.7z" download>⬇️ 点击下载 漂流小蝦 v2.0.0</a>
-</div>
+</div> -->
 
 <br><br>
 <div align="left">
@@ -64,11 +67,11 @@ description: 漂流小蝦 官方下载中心
 
 <div class="update-box">
 
-**更新日期：** 2025 年 10 月 31 日　01:50:16  
+**更新日期：** 2025 年 10 月 31 日　01:50:16  <br>
 
-### 🆕 本次更新內容
-1. ✨ 新增 **「瞬移指定出口」** 功能，可直接選擇並傳送至特定地點。  
-2. 🗂️ 新增 **自動記錄與更新瞬移出口清單檔** `ScnList.txt`，讓瞬移目標可即時同步。  
+### 🆕 本次更新內容<br>
+1. ✨ 新增 **「瞬移指定出口」** 功能，可直接選擇並傳送至特定地點。<br>
+2. 🗂️ 新增 **自動記錄與更新瞬移出口清單檔** `ScnList.txt`，讓瞬移目標可即時同步。<br>
 
 ---
 
