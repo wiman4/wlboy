@@ -223,6 +223,105 @@
     </p>
   </div>
 
+  <!-- 💌 浮動留言按鈕（升級版） -->
+  <a href="https://github.com/wiman4/wlboy/discussions" target="_blank" 
+     class="feedback-button" title="回報問題 / 提出建議">
+     💌
+     <span class="tooltip">回報問題 / 提出建議</span>
+  </a>
+
+  <style>
+    .feedback-button {
+      position: fixed;
+      right: 22px;
+      bottom: 22px;
+      width: 64px;
+      height: 64px;
+      background: linear-gradient(135deg, #ffb300, #ff9500);
+      color: white;
+      border-radius: 50%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 28px;
+      text-decoration: none;
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.25);
+      transition: transform 0.25s ease, box-shadow 0.25s ease;
+      overflow: visible;
+      z-index: 999;
+      animation: popIn 0.6s ease;
+    }
+
+    /* 滑過效果 */
+    .feedback-button:hover {
+      transform: scale(1.1);
+      box-shadow: 0 6px 14px rgba(0, 0, 0, 0.3);
+      background: linear-gradient(135deg, #ffa000, #ff6f00);
+    }
+
+    /* 點擊動畫 */
+    .feedback-button:active {
+      transform: scale(0.9);
+      box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
+    }
+
+    /* 進場動畫 */
+    @keyframes popIn {
+      0% { transform: scale(0); opacity: 0; }
+      80% { transform: scale(1.1); opacity: 1; }
+      100% { transform: scale(1); }
+    }
+
+    /* 💭 提示泡泡樣式 */
+    .tooltip {
+      position: absolute;
+      bottom: 80px;
+      right: 0;
+      background: #333;
+      color: white;
+      padding: 6px 12px;
+      border-radius: 6px;
+      font-size: 14px;
+      opacity: 0;
+      white-space: nowrap;
+      transform: translateY(10px);
+      transition: opacity 0.3s, transform 0.3s;
+      pointer-events: none;
+    }
+
+    .feedback-button:hover .tooltip {
+      opacity: 1;
+      transform: translateY(0);
+    }
+
+    /* 小三角形 */
+    .tooltip::after {
+      content: "";
+      position: absolute;
+      top: 100%;
+      right: 18px;
+      border-width: 6px;
+      border-style: solid;
+      border-color: #333 transparent transparent transparent;
+    }
+
+    /* 手機自動縮放 */
+    @media (max-width: 640px) {
+      .feedback-button {
+        width: 54px;
+        height: 54px;
+        font-size: 24px;
+        right: 16px;
+        bottom: 16px;
+      }
+      .tooltip {
+        font-size: 12px;
+        right: -10px;
+      }
+    }
+  </style>
+
+
   <div class="footer">
     ✨ 感謝使用 漂流小蝦！<br />
     如果覺得不錯，歡迎點個 
